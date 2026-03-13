@@ -1,0 +1,13 @@
+# Remote Radar — robots.txt
+# Tells search engine crawlers what they can and can't access.
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# Point crawlers to the sitemap
+Sitemap: https://growth-hackerx.github.io/remote-radar/sitemap.xml
+
+# Block access to hidden/system files (GitHub artifacts)
+Disallow: /.git/
+Disallow: /.github/
